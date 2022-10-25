@@ -20,8 +20,8 @@ class User(db.Model):
     role = db.Column(db.String)
     phone = db.Column(db.String)
 
-    orders = db.relationship("Order", foreign_keys=["customer_id"])
-    # offers = db.relationship("Offer")
+    orders = db.relationship("Order")
+    offers = db.relationship("Offer")
 
 
 class Order(db.Model):
