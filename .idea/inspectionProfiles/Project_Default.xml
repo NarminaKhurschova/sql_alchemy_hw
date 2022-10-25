@@ -1,6 +1,12 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="ConditionalExpressionWithIdenticalBranchesJS" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="ES6ShorthandObjectProperty" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSArrowFunctionBracesCanBeRemoved" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSPrimitiveTypeWrapperUsage" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSRemoveUnnecessaryParentheses" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSUnnecessarySemicolon" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
@@ -16,5 +22,14 @@
       </option>
     </inspection_tool>
     <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="TypeScriptExplicitMemberType" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryContinueJS" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelJS" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelOnBreakStatementJS" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLabelOnContinueStatementJS" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryReturnJS" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="UnterminatedStatementJS" enabled="false" level="ERROR" enabled_by_default="false">
+      <option name="ignoreSemicolonAtEndOfBlock" value="true" />
+    </inspection_tool>
   </profile>
 </component>
